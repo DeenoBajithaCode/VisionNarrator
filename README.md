@@ -1,6 +1,6 @@
 # VisionNarrator - Image Caption Generator
 
-This project generates captions for images using CLIP for image understanding and GPT-2 for text generation. It uses a simple Flask API to upload an image and get a caption as a response.
+This project generates captions for images using CLIP for image understanding and GPT-2 for text generation. It uses a simple Django API to upload an image and get a caption as a response.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project generates captions for images using CLIP for image understanding an
 
 - Python 3.8+
 - Transformers
-- Flask
+- Django
 - Pillow
 - torch
 
