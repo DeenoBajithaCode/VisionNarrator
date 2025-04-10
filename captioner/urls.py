@@ -15,8 +15,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from .views import generate_caption
+from . import views
 
 urlpatterns = [
-    path('caption/', generate_caption, name='generate_caption'),
+    path('generate_caption/', views.generate_caption_view, name='generate_caption'),
 ]
